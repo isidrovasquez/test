@@ -1,4 +1,4 @@
-application: myapp
+application: testvendorportal-144215
 version: main
 runtime: python27
 api_version: 1
