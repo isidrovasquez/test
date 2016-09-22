@@ -1,0 +1,34 @@
+
+// Tabs: start
+
+.tab-gear {
+
+    a {
+        font-size: 13px;
+        color: $color-table-header;
+    }
+    
+    li {
+        
+        a {
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                background-color: inherit;
+                color: $color-sidebar-blue-bg;
+                line-height: 18px;
+            }
+        }
+    }
+
+    .tab-gear-active {
+        font-family: $font-default-heavy;
+        border-bottom: 2px solid $color-active-menu;
+
+        a {
+            color: $color-sidebar-blue-bg;
+        }
+    }
+} 
+
+// Tabs: End

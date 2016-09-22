@@ -1,0 +1,97 @@
+/*Sidebar: Start*/
+#sidebar-wrapper {
+    font-family: $font-default-book;
+    z-index: 1000;
+    position: fixed;
+    width: 0;
+    height: 100%;
+    background: $color-sidebar-blue-bg;
+
+    .sidebar-nav {
+        position: relative;
+        top: 0;
+        width: 223px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            text-indent: 20px;
+            line-height: 55px;
+
+            a {
+                display: block;
+                text-decoration: none;
+                font-size: 14px;
+                color: $color-sidebar-text;
+                background: $color-sidebar-inactive;
+
+                &:hover, &.active{
+                    text-decoration: none;
+                    color: $color-white;
+                    background: $color-sidebar-active;
+
+                    .icon-sidebar {
+                        color: $color-active-menu;
+                    }
+                }
+            }
+        }
+        span {
+            margin-left: 5px;
+        }
+    }
+
+    .icon-sidebar {
+        margin: 0 5px 0 0;
+        font-size: 16px;
+        color: $color-sidebar-text;
+    }
+    .sidebar-details {
+        padding-top: 1.7vh;
+        width: 100%;
+        font-size: 12px;
+        color: #7C8C9A;
+        line-height: 18px;
+        display: block;
+        position: relative;
+        list-style: none;
+        text-transform: uppercase;
+
+        li {
+            padding: 10px 0;
+            display: block;
+            text-decoration: none;
+            text-indent: -10px;
+        }
+
+        span {
+            display: block;
+            float: right;
+            text-align: left;
+            padding: 0px;
+            width: 40px;
+        }
+    }
+}
+/*Sidebar: End*/
+
+/* tablet */
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        width: 223px;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    #sidebar-wrapper {
+        overflow: hidden;
+        width: 223px;
+        transition: max-height 0.3s ease-out;
+        max-height: 0;
+    }
+    #sidebar-wrapper.open {
+        max-height: 999px;
+    }
+}

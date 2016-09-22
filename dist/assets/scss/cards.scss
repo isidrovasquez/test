@@ -1,0 +1,234 @@
+/*card: start*/
+.card {
+    color: $color-sidebar-blue-bg;
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid $color-border;
+
+    .card-title {
+        font-size: 18px;
+
+        h3 {
+            padding: 0;
+            margin: 0 0 20px 0;
+            line-height: inherit;
+        }
+    }
+
+    .card-content {
+        color: $color-sidebar-blue-bg;
+        margin-top: 20px;
+
+        .card-user {
+            width: 30px;
+            height: 30px;
+            background: $color-border;
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+            text-align: center;
+            color: $color-sidebar-blue-bg;
+
+            i {
+                margin: 8px 0;
+                color: $color-table-header;
+            }
+        }
+
+        .card-text {
+            margin-left: 50px;
+
+            p {
+                color: $color-table-header;
+                font-style: italic;
+            }
+
+        }
+        .card-img-blouse {
+                width: 25%;
+                vertical-align: top;
+                display: inline-block;
+        }
+
+        .card-content-blouse {
+            width: 70%;
+            margin-left: 3%;
+            display: inline-block;
+
+             p {
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 0;
+            }
+        }
+
+        .card-legend-sprite {
+            text-align: center;
+            font-size: 14px;
+            color: $color-sidebar-blue-bg;
+            line-height: 20px;
+        }
+
+        .card-style{
+            list-style: none;
+
+            p {
+                font-size: 14px;
+                width: 143px;
+                color: $color-sidebar-inactive;
+                line-height: 18px;
+            }
+        }
+
+        .card-style-img {
+            margin: 0 40px 5px 0;
+            display: inline-block;
+            padding: 0 10px 0 0;
+
+             img {
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .card-center {
+        margin: 0 auto;
+    }
+
+    .card-batch {
+        font-size: 18px;
+        color: $color-sidebar-blue-bg;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+
+        li {
+            width: 14%;
+            display: inline-block;
+            margin-left: 2%;
+        }
+
+        p {
+            font-size: 18px;
+            color: $color-sidebar-inactive;
+            font-weight: 300;
+        }
+
+        strong {
+            font-family: $font-default-heavy;
+            font-size: 12px;
+            display: block;
+            text-transform: uppercase;
+        }
+
+        .card-batch-comments{
+            font-size: 14px;
+            color: $color-light-blue;
+        }
+    }
+
+    .card-batch-btn {
+        text-align: right;
+    }
+
+    .card-sprites-comments {
+        margin-left: 150px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .card-comments-no-content {
+        display: inline-block;
+        padding: 45px 0;
+
+        p {
+            font-size: 14px;
+        }
+        a {
+            color: $color-light-blue;
+        }
+    }
+}
+/*card: end*/
+
+/*Form card account: start */
+.card-account {
+    width: 760px;
+    margin: 140px auto 0;
+    overflow: hidden;
+
+    form {
+        padding-top: 70px;
+    }
+
+    .card-setup {
+        width: 350px;
+        height: 540px;
+        padding: 0px 40px;
+        background: #fff;
+        border: 1px solid $color-border;
+        margin: 0 auto;
+        display: inline-block;
+        vertical-align: top;
+
+        h2 {
+            font-family: $font-default-book;
+            font-size: 40px;
+            color: $color-sidebar-inactive;
+            line-height: 48px;
+        }
+
+         p {
+            font-size: 16px;
+            color: $color-sidebar-blue-bg;
+            line-height: 24px;
+        }
+    }
+
+    .card-setup-img {
+        margin: 70px 0 0;
+    }
+
+    .card-form-box {
+        width: 410px;
+        height: 540px;
+        padding: 0 40px;
+        background: $color-white;
+        border: 1px solid $color-border;
+        margin-left: -5px;
+        display: inline-block;
+
+        .form-control {
+            height: 48px;
+            padding: 6px 10px;
+            font-size: 16px;
+            color: $color-form-control;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .card-form-btn a {
+        width: 120px;
+    }
+
+    .form-gear-account {
+
+        input {
+            background: $color-table-alt-row-bg;
+            border: 1px solid $color-border;
+        }
+
+        span {
+            font-size: 12px;
+            color:$color-sidebar-blue-bg;
+            line-height: 18px;
+            display: block;
+            margin-top: -15px;
+        }
+    }
+}
+/* form account: end */
+
+

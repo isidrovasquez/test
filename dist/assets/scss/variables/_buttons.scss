@@ -1,0 +1,256 @@
+/*buttons:start*/
+.btn-color-primary {
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: $font-default-heavy;
+        background: $color-light-blue;
+        border-color: $color-light-blue;
+        color: $color-white;
+        padding: 8px 20px;
+        margin: 5px 0px;
+    
+    &:hover,
+    &:focus {
+        background: $color-light-blue-hover;
+        color: $color-white;
+    }
+
+    &:active {
+         background: $color-light-blue-active;
+    }
+}
+   
+
+.btn-color-secondary {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family:$font-default-heavy;
+    background: $color-secondary-btn;
+    border-color:$color-secondary-btn;
+    color: $color-white;
+    padding: 8px 20px;
+    margin: 5px 0px;
+
+
+    &:hover,
+    &:focus {
+        background: $color-secondary-btn-hover;
+        color: $color-white;
+    }
+
+    :active {
+        background: $color-secondary-btn-hover-active;
+    }
+}
+
+.btn-color-negative {
+
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: $font-default-heavy;
+    border-color: $color-negative-btn;
+    color: $color-negative-btn;
+    padding: 8px 20px;
+
+    &:hover,
+    &:focus {
+        border-color: $color-negative-btn-hover;
+        color: $color-negative-btn-hover;
+    }
+
+    &:active {
+        border-color: $color-negative-btn-active;
+        color: $color-negative-btn-active;
+    }
+
+}
+
+.btn-color-negative-table {
+
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: $font-default-heavy;
+    border-color: $color-negative-btn-hover;
+    background: $color-negative-btn-hover;
+    color: $color-white;
+    padding: 8px 20px;
+    margin: 5px 0px;
+
+    &:hover,
+    &:focus,
+    &:active {
+        border-color:$color-negative-btn;
+        background: $color-negative-btn;
+        color: $color-white;
+    }
+}
+
+.btn-no-border {
+    font-family: $font-default-heavy;
+    color: $color-sidebar-blue-bg;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px;
+    background: none;
+    border-color: none;
+    padding: 8px 20px;
+    margin: 5px 0px;
+
+
+    &:hover,
+    &:focus {
+        color: $color-sidebar-blue-bg;
+    }
+}
+
+ 
+.btn-color-table-action {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: $font-default-heavy;
+    border-color:$color-light-blue;
+    color: $color-light-blue;
+    padding: 8px 20px;
+    margin: 5px 0px;
+
+    &:hover,
+    &:focus {
+        border-color: $color-light-blue-hover;
+        color: $color-light-blue-hover;
+    }
+
+    &:active {
+        border-color: $color-light-blue-active;
+        color: $color-light-blue-active;
+    }
+}
+
+
+/*Dropdown*/
+.btn-color-dropdown {
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: $font-default-heavy;
+    border-color:$color-border;
+    color: $color-sidebar-blue-bg;
+    background:$color-border;
+    padding: 8px 20px;
+    margin: 5px 0px;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background:$color-border;
+    }
+}
+
+.dropdown-color {
+    padding: 10px 10px 20px 10px;
+    min-width: 250px;
+    list-style: none;
+
+    li {
+        margin: 0 0 10px;
+
+        a {
+            padding: 2px 20px;
+            color: $color-light-blue;
+            font-size: 14px;
+
+            &:hover,
+            &:focus {
+                color: $color-light-blue-hover;
+                text-decoration: none;
+                background-color: inherit;
+            }
+        }
+    } 
+    .dropdown-title {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    /*Dropdown:end*/  
+}
+
+.dropdown-card {
+    padding: 10px 10px 20px 10px;
+    min-width: 250px;
+    list-style: none;
+    margin: 0 0 0 -160px;
+
+    li {
+        margin: 0 0 10px;
+
+        a {
+            padding: 2px 20px;
+            color: $color-light-blue;
+            font-size: 14px;
+
+            &.btn-color-primary{
+                color: $color-white;
+            }
+
+            &:hover,
+            &:focus, &.btn-color-primary:hover {
+                color: $color-light-blue-hover;
+                text-decoration: none;
+                background-color: inherit;
+            }
+        }
+    } 
+
+    .btn {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.dropdown-font-book {
+    font-family: $font-default-book;
+    font-size: .7em;
+}
+
+
+.btn-google {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: $font-default-book;
+    background: $color-light-blue;
+    border-color: $color-light-blue;
+    color: $color-white;
+    padding: 8px 20px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    
+    &:hover,
+    &:focus {
+        background: $color-light-blue-hover;
+        color: $color-white;
+    }
+
+    &:active {
+         background: $color-light-blue-active;
+    }
+
+    &:before {
+        font-family: FontAwesome;
+        content: "\f1a0";
+        margin: 0 40px 0 0;
+    }
+}
+
+
+/*buttons:end*/
+
+
+
+

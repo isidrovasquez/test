@@ -1,0 +1,74 @@
+.colors-blouse {
+    font-family: $font-default-book;
+    font-size: 10px;
+    padding: 0;
+    margin-top: 10px;
+
+    li {
+        list-style: none;
+        margin: 0 5px 5px 0;
+        display: inline-block;
+        padding: 0 10px 0 34px;
+        line-height: 22px;
+        border: 1px solid #ccc;
+        position: relative;
+        min-width: 90px;
+        
+        &:before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: '';
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background-color: #ccc;
+            margin: -1px;
+        }
+
+        &.color-base:before {
+            background-color: $color-base;
+        }
+
+        &.color-blue:before {
+            background-color: $color-blue;
+        }
+
+        &.color-white:before {
+            background-color: $color-white;
+            border: 1px solid $color-border;
+        }
+        &.color-1805-c:before {
+            background-color: $color-1805-c;
+        }
+        &.color-teal:before {
+            background-color: $color-teal;
+        }
+
+        &.color-1094-d:before {
+            background-color: $color-blue;
+        }
+
+        &.color-2985-c:before {
+            background-color: $color-white;
+            border: 1px solid $color-border;
+        }
+        &.color-purple:before {
+            background-color: $color-purple;
+        }
+        &.color-med-blue:before {
+            background-color: $color-med-blue;
+        }
+
+        &.color-yellow:before {
+            background-color: $color-yellow;
+        }
+
+        &.color-orange:before {
+            background-color: $color-orange;
+        }
+        &.color-florest:before {
+            background-color: $color-florest;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+	/*Nav: Start*/
+	.navbar-default {
+	    background-color: $color-light-blue;
+	    border-color: $color-light-blue;
+
+	   	.navbar-brand {
+			background: url("../img/logo-gearlaunch.png");
+			width: 180px;
+			height: 25px;
+			margin: 12px 0 0 20px;
+			padding: 0;
+		}
+
+		.nav-help {
+		    float: right;
+		    font-size: 16px;
+		}
+
+		.nav-help {
+			li {
+				a {
+					color: #fff;
+
+					&:hover,
+					&:focus {
+						color: $color-light-gray;
+		    			background-color: transparent;
+					}
+				}
+			}
+		}
+
+		/*Search nav: start*/
+		.search-header {
+
+			.form-control-input {
+			    border-radius: 0 4px 4px 0;
+			    color: $color-sidebar-text;
+			 }
+			.search-btn {
+			    position: absolute;
+			    margin: 0px 0 -12px -37px;
+			    border-radius: 4px 0 0 4px;
+			    border-right: none;
+			    color: $color-sidebar-text;
+			}
+			.search-size {
+				font-family: $font-default-book-oblique;
+    			padding: 0px 300px 0 0;
+			}
+		}
+		/*Search nav:: end*/
+
+		/*user: start*/
+		.user {
+		    width: 34px;
+		    height: 34px;
+		    position: relative;
+		    display: inline-block;
+		    margin: -13px 25px;
+			
+			img {
+			    border-radius: 50%;
+			    background: #fff;
+			}
+		}
+		/*user: end*/
+	}
+	/*nav: end*/
+
+
+
+
+
+
+
+

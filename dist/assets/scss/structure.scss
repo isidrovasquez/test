@@ -1,0 +1,405 @@
+body {
+    font-family: $font-default-book;; 
+    background: $color-bg-portal; 
+}
+
+a {
+    color: $color-tapbar-actions;
+}
+
+a:hover,
+a:focus {
+    color: $color-tapbar-actions;
+}
+
+h1 {
+    font-family: $font-default-book; 
+    font-size: 30px;
+    line-height: 48px;
+}
+h2 {
+    font-family: $font-default-heavy;
+    font-size: 18px;
+    line-height: 27px;
+}
+h3 {
+    font-family: $font-default-medium;
+    font-size: 18px;
+    line-height: 27px;
+}
+h4 {
+    font-family: $font-default-book;
+    font-size: 14px;
+    line-height: 20px;
+}
+h5 {
+    font-family: $font-default-heavy;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+/*Container: start*/
+.gear-main-content {
+    font-family: $font-default-book; 
+    margin: 50px 0 0 220px;
+    color: $color-table-header;
+}
+/*Container: start*/
+
+/*Header: Start*/
+.navbar-default {
+    background-color: #0096C9;
+    border-color: #0096C9;
+}
+.navbar-brand {
+    background: url("../img/logo-gearlaunch.png");
+    width: 180px;
+    height: 25px;
+    margin: 12px 0 0 20px;
+    padding: 0;
+}
+.nav-help {
+    float: right;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav > li > a, .nav-help > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav  > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus, 
+.nav-help > li > a:hover,
+.nav-help > li > a:focus {
+    color: #f0f0f0;
+    background-color: transparent;
+}
+
+/*Search header: start*/
+.search-header .form-control-input{
+    border-radius: 0 4px 4px 0;
+    color: #B2BFCE;
+}
+.search-header .search-btn{
+    position: absolute;
+    margin: 0px 0 -12px -37px;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+    color: #B2BFCE;
+}
+.search-header .search-size {
+    padding: 0px 320px 0 0;
+}
+/*Search header: end*/
+/*user: start*/
+.user {
+    width: 34px;
+    height: 34px;
+    position: relative;
+    display: inline-block;
+    margin: -13px 25px;
+}
+.user img {
+    border-radius: 50%;
+    background: #fff;
+}
+/*user: end*/
+/*Header: end*/
+
+/*bradcrumb: start*/
+.breadcrumb {
+    font-family: 'Futura PT Book',Trebuchet MS,Arial,sans-serif; 
+    padding: 0;
+    margin: 20px 0 0;
+    background-color: inherit;
+}
+.breadcrumb a {
+    font-size: 18px;
+    color: #7C8C9A;
+    line-height: 27px;
+    background: none;
+    text-decoration: none;
+}
+.breadcrumb > li + li:before {
+    padding: 0 30px;
+    color: #7C8C9A;
+    content: ">";
+    font-size: 24px;
+}
+.breadcrumb > .active {
+    font-family: 'Futura PT Heavy Oblique',Trebuchet MS,Arial,sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    color: #1D2B37;
+    line-height: 27px;
+}
+/*bradcrumb: end*/
+
+/*card: start*/
+.card {
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #E6EAF0; 
+}
+.card-title {
+    font-size: 18px;
+    color: #1D2B37;
+}
+.card-title h3 {
+    color: #1D2B37;
+    padding: 0;
+    margin: 0 0 20px 0;
+    line-height: inherit;
+}
+.card-content {
+    color: #1D2B37;
+    margin-top: 20px;
+}
+.card-user {
+    width: 30px;
+    height: 30px;
+    background: #E6EAF0;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    color: #1d2b37;
+}
+.card-user i {
+    margin: 8px 0;
+}
+.card-text {
+    margin-left: 50px;
+}
+.card-text p {
+    color: #7C8C9A;
+    font-style: italic;
+}
+.card-center {
+    margin: 0 auto;
+}
+.card-img-blouse {
+    width: 30%;
+}
+.card-img-blouse img {
+    float: left;
+}
+.card-content-blouse p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.card-content-blouse {
+    width: 70%;
+    margin-left: 38%;
+}
+.card-legend-sprite {
+    text-align: center;
+    font-size: 14px;
+    color: #1D2B37;
+    line-height: 20px;
+}
+.card-style{
+    list-style: none;
+    font-family: 'Futura PT Book',Trebuchet MS,Arial,sans-serif;
+}
+.card-style p {
+    font-size: 14px;
+    width: 143px;
+    color: #233442;
+    line-height: 18px;
+}
+.card-img-style {
+    margin: 0 40px 5px 0;
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+.card-img-style img {
+    padding-bottom: 10px;
+}
+
+.card-batch {
+    font-family: 'Futura PT Book',Trebuchet MS,Arial,sans-serif;
+    font-size: 18px;
+    color: #1D2B37;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.card-batch li {
+    width: 14%;
+    display: inline-block;
+    margin-left: 2%;
+}
+.card-batch strong {
+    font-family: 'Futura PT Heavy Oblique',Trebuchet MS,Arial,sans-serif;
+    font-size: 12px;
+    display: block;
+    text-transform: uppercase;
+}
+.card-batch p {
+    font-family: 'Futura PT Book',Trebuchet MS,Arial,sans-serif;
+    font-size: 18px;
+    color: #666;
+    font-weight: 300;
+}
+.card-batch-btn {
+    text-align: right;
+}
+.card-batch-comments{
+    font-size: 14px;
+    color: #0096C9;
+}
+/*card: end*/
+
+/*Form account: start */
+.card-account {
+    width: 760px;
+    margin: 140px auto 0;
+    overflow: hidden;
+    font-family: 'Futura PT Book',Trebuchet MS,Arial,sans-serif;
+}
+.card-account form {
+    padding-top: 70px;
+}
+.form-gear-account input {
+    background: #FBFCFC;
+    border: 1px solid #E6EAF0;
+}
+.form-gear-account span {
+    font-size: 12px;
+    color: #1D2B37;
+    line-height: 18px;
+    display: block;
+    margin-top: -15px;
+}
+.card-setup {
+    width: 350px;
+    height: 540px;
+    padding: 0px 40px;
+    background: #fff;
+    border: 1px solid #e6eaf0;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.card-setup-img {
+    margin: 70px 0 0;
+}
+.card-setup h2 {
+    font-size: 40px;
+    color: #233442;
+    line-height: 48px;
+}
+.card-setup p {
+    font-size: 16px;
+    color: #1D2B37;
+    line-height: 24px;
+}
+.card-form-box {
+    width: 410px;
+    height: 540px;
+    padding: 0 40px;
+    background: #fff;
+    border: 1px solid #e6eaf0;
+    margin-left: -5px;
+    display: inline-block;
+}
+.card-form-box .form-control {
+    height: 48px;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #9DAEC1;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.card-form-btn a {
+    width: 120px;
+}
+/*form account: end*/
+
+
+/* Alert: start */
+.alert-gear {
+    font-family: 'Futura PT Book',Trebuchet MS,Arial,sans-serif; 
+    font-size: 14px;
+    color: #6BAF31;
+    padding-left: 30px;
+}
+.alert-gear a {
+    color: #6BAF31;
+    font-size: 16px;
+}
+/*Alert: end*/
+
+.tab-gear a {
+    font-size: 13px;
+    color: #7C8C9A;
+}
+.tab-gear > li > a:hover, .tab-gear > li > a:focus {
+    text-decoration: none;
+    background-color: inherit;
+    color: #1D2B37;
+    line-height: 18px;
+}
+.tab-gear-active {
+    font-family: 'Futura PT Heavy Oblique',Trebuchet MS,Arial,sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #F02B5D;
+}
+.tab-gear-active a{
+    color: #1D2B37;
+}
+/* tablet */
+@media (min-width: 768px) {
+
+    /*navbar*/
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 0px; 
+    }
+
+    #sidebar-wrapper {
+        width: 223px;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 480px) {
+
+    /*navbar*/
+    .navbar-default .navbar-toggle {
+        background: #fff;
+    }
+
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 15px; 
+    }
+
+    #sidebar-wrapper {
+        overflow: hidden;
+        width: 223px;
+        transition: max-height 0.3s ease-out;
+        max-height: 0;
+    }
+    #sidebar-wrapper.open {
+        max-height: 999px;
+    }
+    .sidebar-nav{
+        background: #233442;
+    }
+
+    .perfil {
+        margin: 50px 0 20px 20px;
+    }
+    .search-btn{
+        margin: 0 0 0 10px;
+    }
+
+}

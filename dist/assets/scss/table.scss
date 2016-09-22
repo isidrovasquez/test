@@ -1,0 +1,124 @@
+/*Table: start*/
+.table-gear {
+    font-family: $font-default-book;
+    font-weight:300; 
+    margin-top:30px;
+    background:#fff;
+    font-size:14px;
+    color: $color-sidebar-inactive;
+
+    a {
+        cursor: pointer;
+        outline: none;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    i {
+        margin-right: 5px;
+    }
+
+    img {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+    }
+
+    thead {
+        font-family: $font-default-heavy;
+        font-weight: 700; 
+        color: $color-white;
+        background: $color-sidebar-text;
+    }
+
+    thead tr th:first-child, &>tbody tr td:first-child{
+        padding-left: 3%;
+    }
+    th {
+        text-transform: uppercase;
+    }
+    tbody > tr > td{
+        vertical-align: middle;
+    }
+    tbody > tr > td.action-column{
+        width: 13%;
+    }
+    .table-gear-comment {
+        width: 30%;
+    }
+    .table-btn {
+        border-radius: 20px;
+        padding: 5px 15px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .table-gear-img { 
+        img {
+            width: 25%;
+            height: 40%;
+        }
+    }
+
+}
+
+
+.table-striped > tbody {
+    & > tr:nth-of-type(even){
+        background-color: #f9f9f9
+    }
+
+    & > tr:nth-of-type(odd) {
+        background-color: inherit;
+    }
+}
+
+.table-icon {
+    margin: 0 5px 0 0;
+    font-size: 14px;
+    color: $color-negative-btn;
+}
+
+.color-alert {
+    color: $color-negative-btn;
+}
+
+
+.table-empty {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: fade($color-white, 70%);
+
+    .card {
+        width: 320px;
+        height: 280px;
+        margin: 0 auto;
+        margin-top: 100px;
+        box-shadow: 0px 0px 4px 0px $color-box-shadow;
+
+        .card-content {
+            margin-top: 0px;
+        }    
+    }
+}
+.table-header-light-gray {
+    
+    thead {
+        background: $color-light-gray;
+        tr {
+            th {
+                border-bottom: 1px solid $color-border;
+                border-top: 1px solid $color-border !important;
+            }
+        }
+    }
+}
+
+
+
+/*table: end*/

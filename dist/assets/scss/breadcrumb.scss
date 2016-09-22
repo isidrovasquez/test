@@ -1,0 +1,42 @@
+/*breadcrumb: start*/
+.breadcrumb {
+    font-family: $font-default-book; 
+    padding: 0;
+    margin: 20px 0 0;
+    background-color: inherit;
+
+    a {
+        font-size: 18px;
+        color: $color-table-header;
+        line-height: 27px;
+        background: none;
+        text-decoration: none;
+    }
+
+    li + li:before {
+        padding: 0 30px;
+        color: #7C8C9A;
+        content: ">";
+        font-size: 24px;
+    }
+
+    &.active {
+        font-family: $font-default-heavy;
+        font-weight: 700;
+        font-size: 18px;
+        color: $color-sidebar-blue-bg;
+        line-height: 27px;
+    }
+
+}
+
+/*breadcrumb: end*/
+.breadcrumb > .active {
+    font-family: 'Futura PT Heavy Oblique',Trebuchet MS,Arial,sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    color: #1D2B37;
+    line-height: 27px;
+}
+/*breadcrumb: end*/
+
